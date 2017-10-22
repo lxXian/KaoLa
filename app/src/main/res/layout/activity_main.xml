@@ -3,19 +3,36 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/myGray"
     >
 
     <LinearLayout
-        android:id="@+id/search"
+        android:id="@+id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:orientation="horizontal">
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:background="@drawable/search"
+            android:drawableLeft="@drawable/search_logo"
+            />
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/notification_logo"/>
     </LinearLayout>
 
     <ScrollView
         android:id="@+id/content"
-        android:layout_below="@id/search"
+        android:layout_below="@+id/search_bar"
         android:layout_above="@+id/menu"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
