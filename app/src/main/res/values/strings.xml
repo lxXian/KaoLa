@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">考啦</string>
+    <string name="menu_home">主页</string>
+    <string name="menu_course">课程</string>
+    <string name="menu_find">发现</string>
+    <string name="menu_mine">我的</string>
+</resources>
