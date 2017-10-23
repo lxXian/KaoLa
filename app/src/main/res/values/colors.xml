@@ -6,5 +6,7 @@
 
     <color name="myGreen">#20b183</color>
     <color name="myGray">#f1f1f2</color>
-    <color name="myTextGray">#919192</color>
+    <color name="myTextGray">#515152</color>
+    <color name="myGreenTwo">#1f9d84</color>
+    <color name="myWhite">#ffffff</color>
 </resources>

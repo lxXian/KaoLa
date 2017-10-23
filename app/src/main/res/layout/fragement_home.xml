@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myGray">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/myWhite"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/learn_days"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="75sp"
+            android:textStyle="bold"
+            android:textColor="@color/myGreenTwo"
+            android:text="25"/>
+        <TextView
+            android:id="@+id/learn_days_hint"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:typeface="serif"
+            android:layout_marginBottom="3dp"
+            android:text="已学习天数"/>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/myGreenTwo"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/home_daka_tip_bg"
+                android:gravity="center"
+                android:textColor="@color/myGreenTwo"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:text="今日已经打卡"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/learnStatisticsItemOne"
+                android:text="@string/learnStatisticsItemOneText"
+                style="@style/learnStatisticsItemTheme" />
+            <TextView
+                android:id="@+id/learnStatisticsItemTwo"
+                android:text="@string/learnStatisticsItemTwoText"
+                style="@style/learnStatisticsItemTheme" />
+            <TextView
+                android:id="@+id/learnStatisticsItemThree"
+                android:text="@string/learnStatisticsItemThreeText"
+                style="@style/learnStatisticsItemTheme" />
+            <TextView
+                android:id="@+id/learnStatisticsItemFour"
+                android:text="@string/learnStatisticsItemFourText"
+                style="@style/learnStatisticsItemTheme" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/myWhite"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/learnToolItemOne"
+            android:text="@string/learnToolsItemOneText"
+            style="@style/learnStatisticsItemTheme"/>
+        <TextView
+            android:id="@+id/learnToolItemTwo"
+            android:text="@string/learnToolsItemTwoText"
+            style="@style/learnStatisticsItemTheme"/>
+        <TextView
+            android:id="@+id/learnToolItemThree"
+            android:text="@string/learnToolsItemThreeText"
+            style="@style/learnStatisticsItemTheme"/>
+        <TextView
+            android:id="@+id/learnToolItemFour"
+            android:text="@string/learnToolsItemFourText"
+            style="@style/learnStatisticsItemTheme"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏"
+        
+        />
+
+</LinearLayout>

@@ -3,6 +3,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     >
 
     <LinearLayout
@@ -19,15 +21,18 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="9"
+            android:layout_marginLeft="8dp"
             android:background="@drawable/search"
-            android:drawableLeft="@drawable/search_logo"
+            android:drawableLeft="@drawable/logo_home_search"
             />
         <TextView
             android:id="@+id/news"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/notification_logo"/>
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/logo_home_list"/>
     </LinearLayout>
 
     <ScrollView
