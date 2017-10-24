@@ -1,15 +1,18 @@
 <resources>
-    <string name="app_name">考啦</string>
+    <string name="app_name">KL图书馆</string>
+
     <string name="menu_home">主页</string>
-    <string name="menu_course">课程</string>
+    <string name="menu_course">书架</string>
     <string name="menu_find">发现</string>
     <string name="menu_mine">我的</string>
+
     <string name="learnStatisticsItemOneText">学习统计</string>
     <string name="learnStatisticsItemTwoText">已学测试</string>
     <string name="learnStatisticsItemThreeText">知识库</string>
-    <string name="learnStatisticsItemFourText">第4</string>
-    <string name="learnToolsItemOneText">翻译</string>
-    <string name="learnToolsItemTwoText">计算器</string>
-    <string name="learnToolsItemThreeText">问答</string>
-    <string name="learnToolsItemFourText">好友</string>
+    <string name="learnStatisticsItemFourText">好友</string>
+
+    <string name="learnToolsItemOneText">阅读角</string>
+    <string name="learnToolsItemTwoText">翻译</string>
+    <string name="learnToolsItemThreeText">视频</string>
+    <string name="learnToolsItemFourText">游戏</string>
 </resources>
