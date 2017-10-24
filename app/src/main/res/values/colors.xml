@@ -9,4 +9,11 @@
     <color name="myTextGray">#515152</color>
     <color name="myGreenTwo">#1f9d84</color>
     <color name="myWhite">#ffffff</color>
+
+    <color name="myBlue">#7ea7d7</color>
+    <color name="myOrange">#fec392</color>
+    <color name="myPink">#f69898</color>
+    <color name="myGreenThree">#acd09d</color>
+    <color name="myYellow">#fed93d</color>
+
 </resources>

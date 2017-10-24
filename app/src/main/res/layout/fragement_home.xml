@@ -57,18 +57,23 @@
             <TextView
                 android:id="@+id/learnStatisticsItemOne"
                 android:text="@string/learnStatisticsItemOneText"
+                android:drawableTop="@drawable/logo_learning_statistics"
+                android:textColor="@color/myBlue"
                 style="@style/learnStatisticsItemTheme" />
             <TextView
                 android:id="@+id/learnStatisticsItemTwo"
                 android:text="@string/learnStatisticsItemTwoText"
+                android:textColor="@color/myOrange"
                 style="@style/learnStatisticsItemTheme" />
             <TextView
                 android:id="@+id/learnStatisticsItemThree"
                 android:text="@string/learnStatisticsItemThreeText"
+                android:textColor="@color/myPink"
                 style="@style/learnStatisticsItemTheme" />
             <TextView
                 android:id="@+id/learnStatisticsItemFour"
                 android:text="@string/learnStatisticsItemFourText"
+                android:textColor="@color/myGreenThree"
                 style="@style/learnStatisticsItemTheme" />
         </LinearLayout>
     </LinearLayout>
@@ -78,23 +83,38 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:background="@color/myWhite"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/learnTool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:drawableLeft="@drawable/logo_learning_tool_tip"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:textColor="@color/myGreenTwo"
+            android:text="@string/learnToolsItemText"
+            />
         <TextView
             android:id="@+id/learnToolItemOne"
             android:text="@string/learnToolsItemOneText"
-            style="@style/learnStatisticsItemTheme"/>
+            android:background="@color/myGreenTwo"
+            style="@style/homeToolItemTheme"/>
         <TextView
             android:id="@+id/learnToolItemTwo"
             android:text="@string/learnToolsItemTwoText"
-            style="@style/learnStatisticsItemTheme"/>
+            android:background="@color/myYellow"
+            style="@style/homeToolItemTheme"/>
         <TextView
             android:id="@+id/learnToolItemThree"
             android:text="@string/learnToolsItemThreeText"
-            style="@style/learnStatisticsItemTheme"/>
+            android:background="@color/myOrange"
+            style="@style/homeToolItemTheme"/>
         <TextView
             android:id="@+id/learnToolItemFour"
             android:text="@string/learnToolsItemFourText"
-            style="@style/learnStatisticsItemTheme"/>
+            android:background="@color/myPink"
+            style="@style/homeToolItemTheme"/>
     </LinearLayout>
 
 

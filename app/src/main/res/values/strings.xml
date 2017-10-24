@@ -9,8 +9,9 @@
     <string name="learnStatisticsItemOneText">学习统计</string>
     <string name="learnStatisticsItemTwoText">已学测试</string>
     <string name="learnStatisticsItemThreeText">知识库</string>
-    <string name="learnStatisticsItemFourText">好友</string>
+    <string name="learnStatisticsItemFourText">馆内好友</string>
 
+    <string name="learnToolsItemText">馆分部</string>
     <string name="learnToolsItemOneText">阅读角</string>
     <string name="learnToolsItemTwoText">翻译</string>
     <string name="learnToolsItemThreeText">视频</string>
