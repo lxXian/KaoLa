@@ -13,7 +13,7 @@
 
     <string name="learnToolsItemText">馆分部</string>
     <string name="learnToolsItemOneText">阅读角</string>
-    <string name="learnToolsItemTwoText">翻译</string>
-    <string name="learnToolsItemThreeText">视频</string>
-    <string name="learnToolsItemFourText">游戏</string>
+    <string name="learnToolsItemTwoText">英语角</string>
+    <string name="learnToolsItemThreeText">视频区</string>
+    <string name="learnToolsItemFourText">游戏区</string>
 </resources>

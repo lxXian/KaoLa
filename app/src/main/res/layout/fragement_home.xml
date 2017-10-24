@@ -5,6 +5,12 @@
     android:orientation="vertical"
     android:background="@color/myGray">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/image_bar_two"
+        android:scaleType="centerCrop"/>
+
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
@@ -63,16 +69,19 @@
             <TextView
                 android:id="@+id/learnStatisticsItemTwo"
                 android:text="@string/learnStatisticsItemTwoText"
+                android:drawableTop="@drawable/logo_learned_test"
                 android:textColor="@color/myOrange"
                 style="@style/learnStatisticsItemTheme" />
             <TextView
                 android:id="@+id/learnStatisticsItemThree"
                 android:text="@string/learnStatisticsItemThreeText"
+                android:drawableTop="@drawable/logo_knowledge_tip"
                 android:textColor="@color/myPink"
                 style="@style/learnStatisticsItemTheme" />
             <TextView
                 android:id="@+id/learnStatisticsItemFour"
                 android:text="@string/learnStatisticsItemFourText"
+                android:drawableTop="@drawable/logo_friends_tip"
                 android:textColor="@color/myGreenThree"
                 style="@style/learnStatisticsItemTheme" />
         </LinearLayout>
