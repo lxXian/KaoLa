@@ -1,19 +1,23 @@
 <resources>
-    <string name="app_name">KL图书馆</string>
+    <string name="app_name">library</string>
 
     <string name="menu_home">主页</string>
-    <string name="menu_course">书架</string>
-    <string name="menu_find">发现</string>
+    <string name="menu_bookshelf">书架</string>
+    <string name="menu_find">资讯</string>
     <string name="menu_mine">我的</string>
 
+    <string name="signDays">签到天数</string>
+
+    <string name="myHomeTools">我的小工具</string>
     <string name="learnStatisticsItemOneText">学习统计</string>
-    <string name="learnStatisticsItemTwoText">已学测试</string>
-    <string name="learnStatisticsItemThreeText">我的知识</string>
+    <string name="learnStatisticsItemTwoText">翻译工具</string>
+    <string name="learnStatisticsItemThreeText">读者服务</string>
     <string name="learnStatisticsItemFourText">馆内好友</string>
 
-    <string name="learnToolsItemText">馆分部</string>
-    <string name="learnToolsItemOneText">阅读角</string>
-    <string name="learnToolsItemTwoText">英语角</string>
-    <string name="learnToolsItemThreeText">视频区</string>
-    <string name="learnToolsItemFourText">游戏区</string>
+    <string name="ActivityItemText">活动专区</string>
+    <string name="ActivityItemOneText">阅读角</string>
+    <string name="ActivityItemTwoText">英语角</string>
+    <string name="ActivityItemThreeText">游戏区</string>
+    <string name="ActivityItemFourText">留言区</string>
+    <string name="ActivityItemFiveText">积分兑换</string>
 </resources>

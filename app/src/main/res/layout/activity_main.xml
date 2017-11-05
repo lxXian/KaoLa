@@ -60,24 +60,25 @@
         android:background="@drawable/menu_item_group"
         android:text="Hello World!" >
         <RadioButton
-            android:id="@+id/home"
+            android:id="@+id/menuHome"
             android:drawableTop="@drawable/menu_item_home_background"
             android:text="@string/menu_home"
             android:checked="true"
+            android:textColor="@color/myGreen"
             style="@style/menuItemTheme"
             />
         <RadioButton
-            android:id="@+id/course"
+            android:id="@+id/menuBookshelf"
             android:drawableTop="@drawable/menu_item_course_background"
-            android:text="@string/menu_course"
+            android:text="@string/menu_bookshelf"
             style="@style/menuItemTheme" />
         <RadioButton
-            android:id="@+id/find"
+            android:id="@+id/menuFind"
             android:drawableTop="@drawable/menu_item_find_background"
             android:text="@string/menu_find"
             style="@style/menuItemTheme" />
         <RadioButton
-            android:id="@+id/mine"
+            android:id="@+id/menuMine"
             android:drawableTop="@drawable/menu_item_mine_background"
             android:text="@string/menu_mine"
             style="@style/menuItemTheme"/>

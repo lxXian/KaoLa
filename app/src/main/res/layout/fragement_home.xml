@@ -34,7 +34,7 @@
             android:textSize="12sp"
             android:typeface="serif"
             android:layout_marginBottom="3dp"
-            android:text="已学习天数"/>
+            android:text="@string/signDays"/>
         <RelativeLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -53,9 +53,10 @@
                 android:background="@drawable/home_daka_tip_bg"
                 android:gravity="center"
                 android:textColor="@color/myGreenTwo"
+                android:layout_marginTop="5dp"
                 android:paddingRight="5dp"
                 android:paddingLeft="5dp"
-                android:text="今日已经打卡"/>
+                android:text="@string/myHomeTools"/>
         </RelativeLayout>
         <LinearLayout
             android:layout_height="wrap_content"
@@ -95,7 +96,7 @@
         android:background="@color/myWhite"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/learnTool"
+            android:id="@+id/ActivityZone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:typeface="serif"
@@ -103,27 +104,32 @@
             android:gravity="center_vertical"
             android:textSize="15sp"
             android:textColor="@color/myGreenTwo"
-            android:text="@string/learnToolsItemText"
+            android:text="@string/ActivityItemText"
             />
         <TextView
-            android:id="@+id/learnToolItemOne"
-            android:text="@string/learnToolsItemOneText"
+            android:id="@+id/ActivityItemOne"
+            android:text="@string/ActivityItemOneText"
             android:background="@color/myGreenTwo"
             style="@style/homeToolItemTheme"/>
         <TextView
-            android:id="@+id/learnToolItemTwo"
-            android:text="@string/learnToolsItemTwoText"
+            android:id="@+id/ActivityItemTwo"
+            android:text="@string/ActivityItemTwoText"
             android:background="@color/myYellow"
             style="@style/homeToolItemTheme"/>
         <TextView
-            android:id="@+id/learnToolItemThree"
-            android:text="@string/learnToolsItemThreeText"
+            android:id="@+id/ActivityItemThree"
+            android:text="@string/ActivityItemThreeText"
             android:background="@color/myOrange"
             style="@style/homeToolItemTheme"/>
         <TextView
-            android:id="@+id/learnToolItemFour"
-            android:text="@string/learnToolsItemFourText"
+            android:id="@+id/ActivityItemFour"
+            android:text="@string/ActivityItemFourText"
             android:background="@color/myPink"
+            style="@style/homeToolItemTheme"/>
+        <TextView
+            android:id="@+id/ActivityItemFive"
+            android:text="@string/ActivityItemFiveText"
+            android:background="@color/myPinkTwo"
             style="@style/homeToolItemTheme"/>
     </LinearLayout>
 

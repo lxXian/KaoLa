@@ -7,17 +7,18 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by min on 2017/10/31.
+ * Created by min on 2017/11/5.
  */
 
-public class courseFragement extends Fragment {
+public class findFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
     }
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState){
-        View v =inflater.inflate(R.layout.fragement_course,container,false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+        View v =inflater.inflate(R.layout.fragement_find,container,false);
         return v;
     }
 }
