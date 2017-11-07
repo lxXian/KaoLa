@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">library</string>
+    <string name="app_name">KLINE</string>
 
     <string name="menu_home">主页</string>
     <string name="menu_bookshelf">书架</string>
@@ -20,4 +20,26 @@
     <string name="ActivityItemThreeText">游戏区</string>
     <string name="ActivityItemFourText">留言区</string>
     <string name="ActivityItemFiveText">积分兑换</string>
+
+    <string name="AOne">马克思、列宁主义、毛泽东思想、邓小平理论</string>
+    <string name="ATwo">哲学、宗教</string>
+    <string name="AThree">社会科学总论</string>
+    <string name="AFour">政治、法律</string>
+    <string name="AFive">军事</string>
+    <string name="ASix">经济</string>
+    <string name="ASeven">文化、科学、教育、体育</string>
+    <string name="AEight">语言、文字</string>
+    <string name="ANine">文学</string>
+    <string name="ATen">历史、地理</string>
+    <string name="AEleven">自然科学总论</string>
+    <string name="ATwelve">数理科学和化学</string>
+    <string name="AThirteen">天文学、地球科学</string>
+    <string name="AFourteen">生物科学</string>
+    <string name="AFifteen">医药、卫生</string>
+    <string name="ASixteen">农业科学</string>
+    <string name="ASeventeen">工业技术</string>
+    <string name="AEighteen">交通运输</string>
+    <string name="ANineteen">航空、航天</string>
+    <string name="ATwenty">环境科学、安全科学</string>
+    <string name="ATwentyOne">综合性图书</string>
 </resources>
