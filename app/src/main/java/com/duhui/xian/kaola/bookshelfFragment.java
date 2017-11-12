@@ -5,15 +5,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.graphics.Color;
 
 import java.util.ArrayList;
-
 import com.duhui.xian.kaola.bookshelf.Books;
 import com.duhui.xian.kaola.bookshelf.BookshelfAdapter;
 
@@ -33,31 +34,35 @@ public class bookshelfFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState){
         View v =inflater.inflate(R.layout.fragement_bookshelf,container,false);
-        Spinner sp = (Spinner)v.findViewById(R.id.sp_book);
-        TextView t = (TextView)v.findViewById(R.id.test);
-        initSpinner(sp,t);
+        ListView sp = (ListView)v.findViewById(R.id.sp_book);
+        initSpinner(sp);
         return v;
     }
 
-    private void initSpinner(Spinner sp,TextView t) {
+    private void initSpinner(ListView sp) {
         booksList = Books.getDefaultList();
         BookshelfAdapter adapter = new BookshelfAdapter(getContext(), R.layout.bookshelf_item, booksList, Color.WHITE);
-
-        t.setText("你好哦哦");
-        sp.setPrompt("请选择行星");
         sp.setAdapter(adapter);
-        sp.setSelection(0);
-        sp.setOnItemSelectedListener(new MySelectedListener());
+        sp.setOnItemClickListener(new MyClickListener());
+        sp.setOnItemLongClickListener(new MyClickLongListener());
     }
 
-    private class MySelectedListener implements OnItemSelectedListener {
+    private class MyClickListener implements OnItemClickListener {
         @Override
-        public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-            Toast.makeText(getActivity(), "您选择的是"+ booksList.get(arg2).name, Toast.LENGTH_LONG).show();
-        }
-
-        @Override
-        public void onNothingSelected(AdapterView<?> arg0) {
+        public void onItemClick(AdapterView<?>parent,View view,int position,long id){
+            String desc=String.format("点击了第%d个行星，它的名字是%s",position+1,booksList.get(position).name);
+            Toast.makeText(getActivity(),desc,Toast.LENGTH_LONG).show();
         }
     }
+
+    private class MyClickLongListener implements OnItemLongClickListener {
+        @Override
+        public boolean onItemLongClick(AdapterView<?>parent,View view,int position,long id){
+            String desc=String.format("长点击了第%d个行星，它的名字是%s",position+1,booksList.get(position).name);
+            Toast.makeText(getActivity(),desc,Toast.LENGTH_LONG).show();
+            return true;
+        }
+    }
+
+
 }
