@@ -12,52 +12,6 @@
         android:src="@drawable/image_bar_two"
         android:scaleType="centerCrop"/>
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="@color/myWhite"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/learn_days"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:textSize="75sp"
-            android:textStyle="bold"
-            android:textColor="@color/myGreenTwo"
-            android:text="25"/>
-        <TextView
-            android:id="@+id/learn_days_hint"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:textSize="12sp"
-            android:typeface="serif"
-            android:layout_marginBottom="3dp"
-            android:text="@string/signDays"/>
-        <RelativeLayout
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="3dp">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/myGreenTwo"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:background="@drawable/home_daka_tip_bg"
-                android:gravity="center"
-                android:textColor="@color/myGreenTwo"
-                android:layout_marginTop="5dp"
-                android:paddingRight="5dp"
-                android:paddingLeft="5dp"
-                android:text="@string/myHomeTools"/>
-        </RelativeLayout>
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -87,7 +41,6 @@
                 android:textColor="@color/myGreenThree"
                 style="@style/learnStatisticsItemTheme" />
         </LinearLayout>
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
