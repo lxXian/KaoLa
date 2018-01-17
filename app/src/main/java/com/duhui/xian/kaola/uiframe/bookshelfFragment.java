@@ -1,4 +1,4 @@
-package com.duhui.xian.kaola;
+package com.duhui.xian.kaola.uiframe;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,6 +15,8 @@ import android.widget.Toast;
 import android.graphics.Color;
 
 import java.util.ArrayList;
+
+import com.duhui.xian.kaola.R;
 import com.duhui.xian.kaola.bookshelf.Books;
 import com.duhui.xian.kaola.bookshelf.BookshelfAdapter;
 
@@ -37,6 +39,7 @@ public class bookshelfFragment extends Fragment {
         ListView sp = (ListView)v.findViewById(R.id.sp_book);
         initSpinner(sp);
         return v;
+
     }
 
     private void initSpinner(ListView sp) {
@@ -47,6 +50,7 @@ public class bookshelfFragment extends Fragment {
         sp.setOnItemLongClickListener(new MyClickLongListener());
     }
 
+    /**监听列表的短按*/
     private class MyClickListener implements OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?>parent,View view,int position,long id){
@@ -55,6 +59,7 @@ public class bookshelfFragment extends Fragment {
         }
     }
 
+    /**监听列表的长按*/
     private class MyClickLongListener implements OnItemLongClickListener {
         @Override
         public boolean onItemLongClick(AdapterView<?>parent,View view,int position,long id){
